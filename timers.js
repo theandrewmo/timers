@@ -35,6 +35,7 @@ function countdown(e) {
 function randomGame() {
     let rand;
     let counter = 0;
+    finalNum.innerHTML = 'Running Game...'
     let id = setInterval(function() {
         rand = Math.random();
         counter = counter + 1;
